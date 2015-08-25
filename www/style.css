@@ -12,15 +12,6 @@ body {
     text-align:center;
 }
 
-.rotate {
-    transform: rotate(-90deg);
-    position: absolute;
-    color: white;
-    bottom: 50%;
-    font-style: italic;
-    font-size: 2em;
-}
-
 .banner {
     width: 5%;
     padding: 0.1em 21px;
@@ -29,21 +20,24 @@ body {
 #mnr {
     height: 600px;
     float: right;
-    background-color: black;
+    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Azir_0.jpg");
+    background-position: center; 
+    opacity: 0.5;
 }
 
 #items {
     height: 550px;
     float: right;
-    background-color: black;
+    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_0.jpg");
+    background-position: center; 
+    opacity: 0.5;
 }
 
 #champions{
     height: 500px;
     float: right;
-    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_1.jpg");
+    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg");
     background-position: center; 
     opacity: 0.5;
 }
-
 
