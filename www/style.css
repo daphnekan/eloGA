@@ -1,1 +1,49 @@
+body {
+    background-color: black;
+}
+
+#summonerInput {
+    position:absolute;
+    display:block;
+    width:800px;
+    left:30%;
+    margin-left:-400px;
+    top:50%;
+    text-align:center;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    position: absolute;
+    color: white;
+    bottom: 50%;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.banner {
+    width: 5%;
+    padding: 0.1em 21px;
+}
+
+#mnr {
+    height: 600px;
+    float: right;
+    background-color: black;
+}
+
+#items {
+    height: 550px;
+    float: right;
+    background-color: black;
+}
+
+#champions{
+    height: 500px;
+    float: right;
+    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_1.jpg");
+    background-position: center; 
+    opacity: 0.5;
+}
+
 
