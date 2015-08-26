@@ -1,53 +1,34 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div id="navigation"></div>
-    <div id="welcome">
-      <form id="summonerInput" class="empty">
+<div id="site" class="banner">
+     <h1>ELO</h1>
+     <h4 id="g">GUARDIAN</h4>
+     <h4 id="a">ANGEL</h4>
+     <h4 id="for">for</h4>
+     <h3 id="welcoming">Summoners</h3>
+</div>
+<div id="champions" class="banner"></div>
+<div id="items" class="banner"></div>
+<div id="mnr" class="banner"></div>
+
+
+<div id="navigation"></div>
+<div id="welcome">
+    <form method="POST" id="summonerInput" class="empty">
         <input type='text' id="summonerName" name='name' placeholder="Summoner Name" class></input>
         <select id="summonerregion" name="region">
-          <option value="na">NA</option>
-          <option value="euw">EUW</option>
-          <option value="eune">EUNE</option>
-          <option value="br">BR</option>
-          <option value="lan">LAN</option>
-          <option value="las">LAS</option>
-          <option value="oce">OCE</option>
-          <option value="kr">KR</option>
-          <option value="tr">TR</option>
-          <option value="ru">RU</option>
-        </select>
-        <span id="summonerregiondroparrow"></span>
-        <button type="submit"><span>Go</span><div id="spincatcher"></div></button>
-      </form>
-    </div>
-    <div id="mnr" class="banner"></div>
-    <div id="items" class="banner"></div>
-    <div id="champions" class="banner"></div>
-    <div id="summoner" class="banner"></div>
-  </body>
-</html>
+            <option value="na">NA</option>
+            <option value="euw">EUW</option>
+            <option value="eune">EUNE</option>
+            <option value="br">BR</option>
+            <option value="lan">LAN</option>
+            <option value="las">LAS</option>
+            <option value="oce">OCE</option>
+            <option value="kr">KR</option>
+            <option value="tr">TR</option>
+            <option value="ru">RU</option>
+        </select> <span id="summonerregiondroparrow"></span>
 
-<!--
-
-<input id="userName" />
-<input type="submit" onclick="summonerLookUp();" />
-
-http://ddragon.leagueoflegends.com/cdn/5.16.1/img/champion/Aatrox.png
-http://ddragon.leagueoflegends.com/cdn/5.16.1/img/champion/Ahri.png
-http://ddragon.leagueoflegends.com/cdn/5.16.1/img/champion/Akali.png
-http://ddragon.leagueoflegends.com/cdn/5.16.1/img/champion/Alistar.png
-http://ddragon.leagueoflegends.com/cdn/5.16.1/img/champion/Amumu.png
-
-
-http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg
-
-
-
-check <meta> tags
-check <shadow> tags
-https://developer.mozilla.org/en-US/docs/Web/Web_Components
--->
+        <button type="submit"><span>Go</span>
+            <div id="spincatcher"></div>
+        </button>
+    </form>
+</div>
