@@ -8,6 +8,8 @@ var main = function () {
     /*$('submit').click(function() {
         $("#champions").append("<p>Hello</p>");
     })*/
+    
+    //http://ddragon.leagueoflegends.com/cdn/5.2.1/img/champion/Aatrox.png 
 
     $(".banner").hover(
 
@@ -22,11 +24,11 @@ var main = function () {
     $("#champions").click(function () {
         if (champOpen==false) {
             $(this).animate({left: "11%"}, 'fast');
-            $("#welcome").fadeTo('fast',0);
+            $("#welcome").css('display', 'none');
             champOpen = true;
         } else {
             $(this).animate({left: "67%"}, 'fast');
-            $("#items").animate({left: "76%"}, 'fast');
+            $("#items").animate({left: "75%"}, 'fast');
             $("#welcome").fadeTo('slow',1);
             champOpen = false;
         }
@@ -36,10 +38,10 @@ var main = function () {
         if (itemOpen==false) {
             $("#champions").animate({left: "11%"}, 'fast');
             $(this).animate({left: "20%"}, 'fast');
-            $("#welcome").fadeTo('fast',0);
+            $("#welcome").css('display', 'none');
             itemOpen = true;
         } else {
-            $(this).animate({left: "76%"}, 'fast');
+            $(this).animate({left: "75%"}, 'fast');
             itemOpen = false;
         }
     });
