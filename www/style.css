@@ -4,40 +4,109 @@ body {
 
 #summonerInput {
     position:absolute;
-    display:block;
     width:800px;
     left:30%;
     margin-left:-400px;
     top:50%;
     text-align:center;
+    float: right;
+}
+
+#welcome {
+    z-index: -1;
 }
 
 .banner {
     width: 5%;
-    padding: 0.1em 21px;
+    padding: 0.1em 1%;
+    word-wrap: break-word;
 }
 
-#mnr {
-    height: 600px;
-    float: right;
-    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Azir_0.jpg");
-    background-position: center; 
-    opacity: 0.5;
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
 }
 
-#items {
-    height: 550px;
-    float: right;
-    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_0.jpg");
-    background-position: center; 
+h4 {
+    color: white;
+    position: relative;
+    margin: 0px;
+    font-size: 50%;
+}
+
+#for{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size: 100%
+}
+
+#g{
+    top: -20px;
+    text-align: center;
+}
+#a{
+    top: -20px;
+    text-align: center;
+}
+
+
+#welcoming {
+    color: white;
+    font-style: italic;
+    position: relative;
+    top: 80px;
+    transform: rotate(-90deg);
+    text-shadow: 2px 2px 8px #FF0000;
+    white-space: nowrap;
+}
+
+#site {
+    border-style: double;
+    border-color: yellow;
+    height: 300px;
+    display: inline-block;
     opacity: 0.5;
+    background-color: black;
+    position: absolute;
 }
 
 #champions{
-    height: 500px;
-    float: right;
+    height: 450px;
     background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg");
-    background-position: center; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
     opacity: 0.5;
+    position: absolute;
+    left: 67%;
+    top: 0%;
+    z-index: 1;
 }
 
+#items {
+    height: 500px;
+    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_0.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: inline-block;
+    opacity: 0.5;
+    position: absolute;
+    left: 76%;
+    top: 0%;
+    z-index: 1;
+}
+
+#mnr {
+    height: 550px;
+    background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Azir_0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    opacity: 0.5;
+    position: absolute;
+    left: 85%;
+    top: 0%;
+    z-index: 1;
+}
