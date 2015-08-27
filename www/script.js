@@ -24,6 +24,12 @@ var main = function () {
         $("#champions").css("background-position", "center");
         
         $("#champions h2").html(selectedChamp);
+        champOpen = false;
+        $("#champSelect").css('display', 'none');
+        
+        
+        $("#items").animate({left: "19%"}, 'fast');
+        itemOpen = true;
     });
     
     
