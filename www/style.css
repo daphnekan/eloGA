@@ -2,24 +2,54 @@ body {
     background-color: black;
 }
 
-#welcomeMessage {
-    color: white;
+#champSelect {
     position: absolute;
-    top: 40%;
-    left: 20%;
-    text-align: center;
+    left: 19%;
+    height: 70%;
+    width: 55%;
+    overflow: auto;
+    overflow-y: scroll;
+    display: none;
+    
 }
 
-#summonerInput {
+#champSelect > div {
+    display: inline-block;
+	float: left;
+	opacity: 0.6;
+	border: 2px solid black;
+	margin: 1px;
+	
+	-webkit-transition: opacity 0.25s,border 0.25s;
+	transition: opacity 0.25s,border 0.25s;
+	
+	width: 60px;
+	min-width: 60px;
+	max-width: 60px;
+	
+	height: 60px;
+	min-height: 60px;
+	max-height: 60px;
+}
+
+#champSelect > div:hover {
+    border: 2px solid white;
+	opacity: 1;
+}
+
+.visible > img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+#welcome {
     position:absolute;
     width:800px;
     left:30%;
     margin-left:-400px;
     top:50%;
     text-align:center;
-}
-
-#welcome {
     z-index: -1;
 }
 
@@ -27,6 +57,7 @@ body {
     width: 5%;
     padding: 0.1em 1%;
     word-wrap: break-word;
+    opacity: 0.7;
 }
 
 h1 {
@@ -75,7 +106,6 @@ h4 {
     position: relative;
     top: 80px;
     transform: rotate(-90deg);
-    text-shadow: 2px 2px 8px #FF0000;
     white-space: nowrap;
 }
 
@@ -84,18 +114,18 @@ h4 {
     border-color: yellow;
     height: 300px;
     display: inline-block;
-    opacity: 0.5;
     background-color: black;
     position: absolute;
-}
+    
+}    
 
 #champions{
-    height: 350px;
+    height: 450px;
     background-image: url("http://na.leagueoflegends.com/sites/default/files/styles/scale_large/public/upload/art/promoart_2_1920x1080.jpg?itok=kjiJh5iV");
     background-position: 10%;
+    background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
-    opacity: 0.5;
     position: absolute;
     left: 67%;
     top: 0%;
@@ -103,12 +133,12 @@ h4 {
 }
 
 #items {
-    height: 400px;
+    height: 500px;
     background-image: url("http://na.leagueoflegends.com/sites/default/files/styles/scale_large/public/upload/art/promoart_2_1920x1080.jpg?itok=kjiJh5iV");
     background-position: 30%; 
+    background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
-    opacity: 0.5;
     position: absolute;
     left: 75%;
     top: 0%;
@@ -116,12 +146,12 @@ h4 {
 }
 
 #mnr {
-    height: 450px;
+    height: 550px;
     background-image: url("http://na.leagueoflegends.com/sites/default/files/styles/scale_large/public/upload/art/promoart_2_1920x1080.jpg?itok=kjiJh5iV");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: 50%;
     display: inline-block;
-    opacity: 0.5;
     position: absolute;
     left: 83%;
     top: 0%;
@@ -129,12 +159,12 @@ h4 {
 }
 
 #battle {
-    height: 500px;
+    height: 600px;
     background-image: url("http://na.leagueoflegends.com/sites/default/files/styles/scale_large/public/upload/art/promoart_2_1920x1080.jpg?itok=kjiJh5iV");
     background-repeat: no-repeat;
     background-position: 70%;
+    background-size: cover;
     display: inline-block;
-    opacity: 0.5;
     position: absolute;
     left: 91%;
     top: 0%;
