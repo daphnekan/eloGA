@@ -3,7 +3,7 @@
 //daphnekan & dw443 (c) 2015
 
 //Globals to assist in using API
-var API_KEY = '';
+var API_KEY = '3d9c5d24-c4e5-4f74-b2f7-5684e45851ac';
 var json='';
 
 //ajax call to get champion info for object initialization
